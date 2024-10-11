@@ -1,0 +1,24 @@
+sources:
+  - name: olist
+    schema: olist
+    #database: olist
+    tables:
+      - name: cust
+        identifier: customers
+        description: "A table of all customers"
+
+      - name: geo
+        identifier: geolocation
+        description: "A table of all geolocations"
+
+      - name: ord
+        identifier: orders
+        description: "A table of all orders"
+
+      - name: ordit
+        identifier: order_items
+        description: "A table of all order items"
+
+      - name: fordids
+        identifier: fir_ship_ids
+        description: "A table of first 30 shipped orders"

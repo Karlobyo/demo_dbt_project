@@ -1,0 +1,1 @@
+{{ count_ord("cust") }}
